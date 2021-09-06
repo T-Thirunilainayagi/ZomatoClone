@@ -1,0 +1,197 @@
+
+/* Common stylings started */
+a{
+    color:unset;
+    text-decoration: none;
+}
+p{
+    font-family: 'Yeseva One', cursive;
+}
+/* Common stylings ended */
+
+/* Section for listing nearby cuisines and restaurants */
+
+section.container h3{
+    font-weight: 900;
+}
+section.container div ul{
+    color:grey;
+}
+section.container div.select li{
+    position:relative;
+    display: inline-block;
+    margin:3px;
+    padding-left:40px;
+    list-style: none;
+    font-size:1.3rem;
+    position: relative;
+    width:auto;
+    height:auto;
+    
+}
+
+ section.container div.select li::before{
+     content: '';
+     width:8px;
+     height:8px;
+     
+     border-radius: 50%;
+     
+     background-color: grey;
+     
+     position:absolute;
+    
+    left:10px;
+    top:8px;
+
+ }
+ /* Listing section part over */
+
+/* Footer section started */
+
+footer {
+    background-color: #F8F8F8;
+    position:relative;
+    left:0px; 
+    margin:0px auto;
+    bottom:0px;
+    width: 100%;
+}
+
+
+
+footer div.zomatoandflags{
+    display:flex;
+    justify-content:space-between;
+    font-size:x-large;
+}
+
+footer div.zomatoandflags div.zomato{
+    display:flex;
+    margin-left:155px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    justify-content:left;
+    font-weight: 800;
+    font-family: 'Yeseva One', cursive;
+}
+footer div.zomatoandflags div.flags{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-right:50px;
+    
+}
+footer div.zomatoandflags div.flags div.usa{
+    display:flex;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    
+    border:solid 1px black;
+    
+    width:140px;
+    height:auto;
+    border-radius: 5px;
+    
+    
+
+    
+    
+}
+footer div.zomatoandflags div.flags div.usa img.usaflag{
+   width:40px;
+   height: auto;
+   margin-top: 10px;
+   
+   
+}
+footer div.zomatoandflags div.flags div.english{
+    
+    display:flex;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    padding:5px;
+    border:solid 1px black;
+    
+    width:140px;
+    height:auto;
+    border-radius: 5px;
+
+}
+footer div.footer{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+footer li{
+    
+    font-family: 'Kaisei HarunoUmi', serif;
+    
+}
+footer h4{
+   color:black;
+}
+
+footer ol{
+    list-style: none;
+    color: gray;   
+}
+footer div.column1{
+    
+    display: inline-block;
+    
+}
+footer div.column2{
+   
+    display: inline-block;
+}
+
+footer div.column3{
+   
+    display: inline-block;
+}
+
+
+footer div.column4{
+   
+    display: inline-block;
+}
+
+footer div.column5{
+   
+    display: inline-block;
+}
+
+footer div.column5 div.social-links{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+footer div.column5 div.social-links div.sm-icons{
+    display:flex;
+    width:70px;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+footer div.column5 div.social-links div.appstore img.appstore-image{
+    width: 160px;
+    height:50px;
+    display:block;
+}
+footer div.column5 div.social-links div.playstore img.playstore-image{
+    width: 160px;
+    height:50px;
+    display:block;
+}
+
+footer div.bottom-message{
+    color:gray;
+    margin-left: 140px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size:small;
+
+}
+/* Footer section over */
