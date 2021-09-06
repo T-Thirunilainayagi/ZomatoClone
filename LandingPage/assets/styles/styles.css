@@ -1,3 +1,5 @@
+/* Universal settings */
+
 p{
     font-family: 'Yeseva One', cursive;
 }
@@ -17,6 +19,7 @@ a {
     outline: none;
     border: none;
 }
+/* Navigation bar */
 nav {
     display: flex;
     align-items: center;
@@ -45,6 +48,7 @@ nav .nav-item {
 
 /* Nav bar over */
 
+/* Header contents */
 header {
     background-image: url('../images/hero.png');
     background-size: cover;
@@ -123,6 +127,7 @@ header div.search-box div.select select {
     font-size: 1rem;
     color: #757575;
 }
+/* Header section completed */
 /* nearby locations section */
 
 section.nearby {
@@ -133,7 +138,6 @@ section.nearby div.container {
     padding: 40px 0px;
     text-align: center;
     width: 80%;
-    /* background-color: #F57082; */
     margin: 0px auto;
 }
 
@@ -151,10 +155,13 @@ section.nearby div.box {
     padding: 25px 15px;
     font-size: 1.2rem;
     border-radius: 10px;
-    /* border:2px solid red; */
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin-top: 5%;
 }
+
+
+/* App section */
+
 
 section.app {
     min-height: 300px;
@@ -172,16 +179,14 @@ section.app div.container {
 section.app div.container img {
     max-width: 300px;
     display: block;
-    /* background-color: #ED5A6B; */
+    
 }
 
-/* section.app div.container img {
-    max-width: 300px;
-} */
+
 
 section.app div.container div.form {
     max-width: 485px;
-    /* background-color: coral; */
+    
 }
 
 section.app div.container div.form h1 {
@@ -263,7 +268,6 @@ div.radio div:last-child {
 }
 
 
-/* ------------ */
 
 [type="radio"]:checked button {
     background-color: red !important;
